@@ -2,6 +2,12 @@
 
 A shell script that was built to remove duplicate lines/text from a file.
 
+## Usage
+
+**Hold for Usage**
+
+### Note
+
 This uses some features that are only available with bash v4.0 and beyond.
 
 We can run `bash --version` to see if we're up to date.
