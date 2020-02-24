@@ -66,6 +66,6 @@ if [ $# -gt 0 ]; then
 else # Tell the user they need to provide this script with a file
 
     echo "This script needs at least one file to execute."
-    echo "Example 👉 \"$0 ./path/file.extention\""
+    echo "Example 👉 \"dupeless ./path/file.extention\""
 
 fi
