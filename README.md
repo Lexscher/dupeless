@@ -2,6 +2,30 @@
 
 A shell script that was built to remove duplicate lines/text from a file.
 
+## Usage
+
+- Clone this repository
+
+`git clone git@github.com:Lexscher/no-dupes.git`
+
+- cd into the repository
+
+`cd no-dupes`
+
+- add the duplicate cleaner to your path by running the command:
+
+ `./add_to_path`
+
+- To remove duplicates from any file(s), just run
+
+`dupleless <path/to/file.ext>`
+
+This can also clean multiple files at once, just pass it more file paths.
+
+`dupeless file1.ext file2.ext ./other/file.ext`
+
+### Note
+
 This uses some features that are only available with bash v4.0 and beyond.
 
 We can run `bash --version` to see if we're up to date.
