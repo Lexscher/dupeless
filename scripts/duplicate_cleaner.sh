@@ -1,5 +1,13 @@
 #! /usr/local/bin/bash
 
+#method to back up file
+back_up_file() {
+    # grab file
+    local f="$1"
+    # copy the file
+    cp $f $f.safety.bak
+}
+
 # method to read file and remove duplicate lines
 read_file() {
     # Grab the file
@@ -47,7 +55,12 @@ if [ $# -gt 0 ]; then
     echo "I will start pruging duplicates in $# files."
     # use our read file method on each file
     for arg in $@; do
+        # back up the file
+        back_up_file $arg
+        # Read & clean the file.
         read_file $arg
+        # remove the sed generated '.bak' file
+        rm $arg.bak
     done
 
 else # Tell the user they need to provide this script with a file
