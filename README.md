@@ -4,13 +4,13 @@ A shell script that was built to remove duplicate lines/text from a file.
 
 ## Usage
 
-- Clone this repository
+- Fork and Clone this repository
 
-`git clone git@github.com:Lexscher/no-dupes.git`
+`git clone git@github.com:<username>/dupeless.git`
 
 - cd into the repository
 
-`cd no-dupes`
+`cd dupeless`
 
 - add the duplicate cleaner to your path by running the command:
 
