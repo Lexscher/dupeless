@@ -2,7 +2,7 @@
 
 A shell script that was built to remove duplicate lines/text from a file.
 
-## Usage
+## Add Dupeless to Path
 
 - Fork and Clone this repository
 
@@ -15,6 +15,8 @@ A shell script that was built to remove duplicate lines/text from a file.
 - add the duplicate cleaner to your path by running the command:
 
  `./add_to_path`
+ 
+ ## Usage
 
 - To remove duplicates from any file(s), just run
 
