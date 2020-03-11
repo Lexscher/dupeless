@@ -14,9 +14,9 @@ A shell script that was built to remove duplicate lines/text from a file.
 
 - add the duplicate cleaner to your path by running the command:
 
- `./add_to_path`
- 
- ## Usage
+ `./add_to_path.sh`
+
+## Usage
 
 - To remove duplicates from any file(s), just run
 
